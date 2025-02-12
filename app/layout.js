@@ -28,6 +28,10 @@ export const metadata = {
       },
     ],
   },
+  icons: {
+    icon: "/images/logo1.png", 
+    apple: "/images/logo1.png",
+  },
   twitter: {
     card: "summary_large_image",
     site: "@genelogo",

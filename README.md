@@ -27,15 +27,15 @@ AI Logo Maker is a smart tool that allows you to generate **professional, high-q
 - **PayPal API** – Payment integration for premium logos  
 - **AI Image Generation API** – Smart AI-driven logo creation  
 
-## 📷 Screenshots  
-🔹 Coming soon...  
+<!-- ## 📷 Screenshots  
+🔹 Coming soon...   -->
 
 ## 📜 License  
 This project is licensed under the **MIT License**.
 
 ## 👥 Contact & Support  
-Need help or have suggestions? Feel free to reach out at **support@your-website.com**.
+Need help or have suggestions? Feel free to reach out at **snandani.tech@gmail.com**.
 
 ---
 
-🚀 **Start creating your logo today!** [Get Started](https://your-website.com)
+🚀 **Start creating your logo today!** [Get Started](https://gene-logo.vercel.app)
