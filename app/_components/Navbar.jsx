@@ -22,7 +22,7 @@ const Navbar = () => {
             alt="Logo"
             
             className="w-16 p-1 h-16"
-          /><h1 className="flex items-center text-4xl text-[rgb(232,93,4)] font-extrabold">LogoGen</h1>
+          /><h1 className="flex items-center text-4xl max-sm:text-2xl text-[rgb(232,93,4)] font-extrabold">LogoGen</h1>
         </Link>
         <div className="flex items-center justify-between gap-4">
           {user ? (
