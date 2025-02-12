@@ -1,14 +1,12 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { PT_Sans } from "next/font/google";
+import { ClerkProvider } from "@clerk/nextjs";
+import Provider from "./Provider";
+
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const nunito = PT_Sans({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight:["400", "700"]
 });
 
 export const metadata = {
@@ -18,12 +16,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
+    <ClerkProvider>
+      <html lang="en">
+        <body className={nunito.className}>
+          <div className="h-screen w-screen overflow-x-hidden">
+            {/* <Header /> */}
+            <div>
+              <Provider>
+              {children}
+              </Provider>
+            </div>
+          </div>
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
