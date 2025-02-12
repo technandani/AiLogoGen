@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     isClient && (
       <>
-        <div className="mt-32 max-sm:mt-24 gap-5 flex flex-col w-[60%] sm:max-w-full max-sm:max-w-full px-20 max-sm:px-2 z-50">
+        <div className="mt-32 max-sm:mt-24 gap-5 flex flex-col w-[60%] sm:max-w-full max-sm:w-full px-20 max-sm:px-2 z-50">
           <h2 className="text-5xl max-sm:text-2xl text-orange-500 font-extrabold">
             {Lookup.HeroHeading}
           </h2>
