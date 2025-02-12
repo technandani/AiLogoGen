@@ -1,5 +1,5 @@
 export default{
-  HeroHeading:'🚀 AI-Powered Logo Maker',
+  HeroHeading:'🚀 AI-Powered Logo Generator',
   HeroSubheading:'Create Stunning Logos in Seconds',
   HeroDesc:'Generate high-quality, professional logos instantly with AI. Perfect for businesses, startups, websites, and personal brands—no design experience required!',
   InputTitlePlaceholder:'Enter your Logo Name',
